@@ -1,0 +1,12 @@
+-   id: swift-lint
+    name: 'swift lint'
+    entry: run-swift-lint.sh
+    files: '\.swift$'
+    language: 'script'
+    description: "Lint swift files. Runs `swift-lint`, requires swift and swiftlint"
+-   id: swift-format
+    name: 'swift format'
+    entry: run-swift-format.sh
+    files: '\.swift$'
+    language: 'script'
+    description: "Format swift files. Runs `swift-format`, requires swift and swiftformat"
